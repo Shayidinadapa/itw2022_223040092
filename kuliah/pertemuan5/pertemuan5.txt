@@ -1,0 +1,22 @@
+CSS pertemuan 5
+- cara cepat membuat paragraf yaitu p*"angka"{paragraf $}($ tergantung berapa puluh)
+- cara cepat membuat link = ul>li*$>a{(apapun)}
+- kata p digunakan pada paragraf
+- kata .cetak-miring buat
+- #p(angka) 
+- .paragraf digunakan pada elemen di paragraf 2
+- a digunakan pada semua pada kata apapun
+- <span> & <div>
+- .(apapun):hover digunakan saat mau disorot
+- text-decoration
+  background-color
+  color (apapun)
+- .kotak
+
+- display:
+  width:
+  background-color
+  margin
+  transform:
+
+
