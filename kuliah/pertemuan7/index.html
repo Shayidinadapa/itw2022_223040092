@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern CSS</title>
+    <style>
+        body {
+            height: 2000px;
+        }
+        .kotak1 {
+            width: 150px;
+            height: 150px;
+            background-color: rgba(0, 0, 255, 0.5);
+            margin: auto;
+            border-radius: 50%;
+            border-top-left-radius: 0;
+            opacity: 1;
+            position: relative;
+            z-index: 10;
+        }
+        p {
+            position: relative;
+            top: -100px;
+        }
+
+        .kotak2 {
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+            margin: auto;
+            /* box-shadow: [inset] <x-offset> <y-offset> <blur> [size] <color>; */
+            /* box-shadow:10px 10px 15px 5px red, -10px -10px 10px blue, 10px -10px 10px black, -10px 10px 10px orange; */
+            box-shadow: 0 0 0 10px red, 0 0 0 20px yellow, 0 0 0 30px green, 0 0 0 40px blue
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 100px;
+            font-family: arial;
+            font-size: 100px;
+            color: black;
+            text-shadow: 3px 3px 0 red;
+        }
+        .kotak3 {
+            width: 200px;
+            height: 200px;
+            background-color: purple;
+            margin: auto;
+            /* transform {translate: bisa x bisa y} {scale membuat ukuran membesar atau mengecil contoh scale(0.5) {skew membuat 
+            ukuran menjadi miring contoh skew(*deg) {rotate membuat ukurang mengubah beberapa derajat contoh rotate(*deeg)} */
+            font-size: 50px;
+            text-align: center;
+            line-height: 200px;
+            /* transition membuat gambar menjadi 3d contoh transition: *s, lalu ada delay juga yaitu transition: *s *s lalu ada border radius membuat gambar delay
+            lalu ada opacity yang ngebuat gambar menjadi hilang */
+            transition: 2s background-color, 3s 2s transform, 3s 5s border-radius, 3s 8s opacity;
+            opacity: 1;
+        }
+        /* active ngebuat semuanya ngubah apapun */
+        .kotak3:hover {
+            transform: rotate(720deg);
+            background-color: aquamarine;
+            border-radius: 50%;
+            opacity: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="kotak1"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique nostrum tempora ab laborum est 
+            quod consequatur officiis, nesciunt sequi ad aliquid? Saepe id repellat qui error, numquam d lor labore ea.</div>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio reiciendis ipsam sint numquam, 
+        deserunt, natus explicabo ullam harum nostrum molestias atque 
+        inventore pariatur voluptatem laborum repudiandae et, consequatur nesciunt nulla.</p>
+
+    <div class="kotak2"></div>
+
+    <h1>Shayidina daffa</h1>
+
+    <div class="kotak3">aahh</div>
+</body>
+</html>
