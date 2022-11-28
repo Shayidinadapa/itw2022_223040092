@@ -82,6 +82,7 @@ h1 {
 
 .overlay:target {
     width: auto;
+    height: auto;
     bottom: 0;
     right: 0;
     background: rgba(0,0,0,.8);

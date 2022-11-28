@@ -46,7 +46,7 @@
     .container {
         width: 960px;
         margin: auto;
-        background-color: white;
+        background-color: #ddd;
     }
 
     .header {
@@ -63,7 +63,7 @@
     .header ul li {
         display: inline-block;
         margin-top: 20px;
-        margin-right: 10px;
+        margin-right: 50px;
     }
 
     .header a {
@@ -79,7 +79,7 @@
 
     .hero {
         height: 300px;
-        background-image: url(th.jpeg);
+        background-image: url(image/th.jpeg);
         background-size: cover;
         background-position: 0 -230px;
         border-bottom: 5px solid blue;
@@ -95,6 +95,22 @@
     .main .p {
         margin-bottom: 20px;
         font-size: 14px;
+        overflow: hidden;
+        }
+
+    .main .spontan {
+        width: 300px;
+        height: 200px;
+        background-color: rgba(200,200,200,.5);
+        background-size: cover;
+        text-shadow: 1px 1px 1px #ddd;
+        transition: .2;
+        color: #333;
+    }
+
+    .main .spontan:hover span {
+        opacity: 1;
+        transform: scale(1) rotate(0deg)
     }
 
     .footer {
@@ -119,18 +135,18 @@
                 <li><a href="#">Home</a></li>
                 <li><a href="#">about</a></li>
                 <li><a href="#">product</a></li>
-                <li><a href="#">services</a></li>
-                <li><a href="#">contact</a></li>
             </ul>
         </div>
         <div class="hero"></div>
+        
         <div class="main">
-    
         <p class="domain">pada tanggal 21 nov 2022 telah mengalami bencana gempa bumi di daerah jawa barat adapun di cianjur yang mendapati
         kalo disana gunjangan gempa nya sekala sekitar Magnitudo 5.6. pada saat itu warga warga sedang melakukan aktivitas sehari hari nya
         dan pada jam 13.00 terjadinya gunjangan dan susulan nya mencapai 7x. untuk korban meninggal bencana tersebut cukup banyak sehingga 271 orang 
         dan untuk luka luka sekitar 2.403 orang. para tim sar berupaya menyelamatkan orang orang yang masih dibawah reruntuhan puing puing 
         dan dibantu oleh TNI dan polisi setempat agar pencarian lebih cepat.</p>
+        <img class="spontan" src="image/korban.jpg" alt="korban bencana gempa">
+        <span>Korban Bencana Gempa</span>
             
     
     <p>keesokan harinya, tim sar mendapatkan laporan ada sekitar 150 orang telah dinyatakan hilang. meskipun begitu tim sar berupaya 
