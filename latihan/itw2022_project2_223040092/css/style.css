@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(210, 235, 174);
+    height: 310vh;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin:0 auto ;
+}
+
+.container::after {
+    content:'';
+    display: block;
+    clear: both;
+}
+
+header h1 {
+    float: left;
+    padding: 15px 0;
+    color: green;
+}
+
+header ul {
+    float: right;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a {
+    padding: 25px 20px;
+    display: inline-block;
+}
+
+header ul li a:hover {
+    background-color: aquamarine;
+    color: #fff;
+}
+
+.active {
+    background-color: aquamarine;
+    color: #fff;
+}
+
+.banner {
+    background-color: rgb(159, 225, 225);
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    height: 400px;
+    background-image: url('../img/background.jpg');
+    color: #ffffff;
+}
+
+section {
+    padding:50px 0;
+}
+
+section h3 {
+    text-align: center;
+    padding:20px 0;
+    color: #148f77;
+    margin-bottom: 20px;
+}
+
+.about {
+    height: 30vh;
+    background-color: #e7c7c7;
+    text-align: center;
+}
+
+.about p {
+    color: black;
+    word-spacing: 2px;
+    line-height: 25px;
+    width: 170vh;
+    text-align: justify;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+h2 {
+    text-align: center;
+    height: 10vh;
+    padding-top: 2rem;
+    color: #5358ec; 
+}
+
+.container-tiga {
+    width: 800px;
+    margin: 50px auto;
+    display: flex;
+}
+
+.card {
+    border: 1px solid #999;
+    border-radius: 10px;
+    background-color: rgb(245, 245, 245);
+    overflow: hidden;
+    margin: 10px;
+    flex: 1;
+}
+
+.card .header1 {
+    height: 400px;
+    background-color: rgb(245, 145, 145);
+    background-image: url('../img/rsz_gamers.jpg');
+    background-position: 35%;
+    display: flex;
+}
+
+.card .header2 {
+    height: 400px;
+    background-color: #666;
+    background-image: url('../img/rsz_animasi.jpg');
+    background-position: 35%;
+}
+
+.card .content {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.section-title {
+    border-bottom: 2px solid #cecece;
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+}
+
+.contact {
+    background-color: rgb(247, 223, 4);
+}
+
+input, textarea{
+    background-color: rgb(20, 173, 239);
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #67def1;
+}
+
+.contact-button {
+    background-color: #67def1;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.footer {
+    text-align: center;
+    background-color: black;
+    height: 70px;
+    color: #ffffff;
+    padding-top: 2rem;
+}

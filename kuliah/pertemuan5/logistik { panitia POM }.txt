@@ -1,0 +1,6 @@
+- logistik
+fungsi logistik cuman menanyakan perihal barang apa saja dari tiap seksi
+jobdesk :
+
+
+- bikin ppt bikin list barang untuk tiap seksi

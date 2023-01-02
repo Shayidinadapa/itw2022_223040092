@@ -1,0 +1,16 @@
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    background-color: #333;
+}
+
+.conten .penulis {
+    padding-bottom: 10px;
+}
+
+.conten {
+    float: left;
+}
